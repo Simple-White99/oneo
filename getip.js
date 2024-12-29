@@ -15,4 +15,3 @@ fetch('https://api.vore.top/api/IPdata')
         }
         document.getElementById('welcome').textContent = welcomeMessage;
     })
-    .catch(error => console.error(error));
